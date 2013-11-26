@@ -5,7 +5,7 @@ module Sendgrid
     module Entities
       class Email < Entity
 
-        attribute :email, :name, :listing_name, :listing_logo_url
+        attribute :email, :name, :listing_name, :listing_logo_url, :listing_communications
 
       end
     end
