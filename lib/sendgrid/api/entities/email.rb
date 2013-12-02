@@ -10,7 +10,7 @@ module Sendgrid
                   :listing_info, :listing_categories, :listing_descriptions,
                   :listing_keywords, :listing_relations, :listing_qrcode,
                   :listing_video, :listing_addresses, :listing_profile,
-                  :listing_brochure
+                  :listing_brochure, :listing_photo_gallery
 
       end
     end
