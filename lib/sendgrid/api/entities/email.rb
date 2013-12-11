@@ -11,7 +11,7 @@ module Sendgrid
                   :listing_keywords, :listing_relations, :listing_qrcode,
                   :listing_video, :listing_addresses, :listing_profile,
                   :listing_brochure, :listing_photo_gallery, :listing_people,
-                  :listing_product_catalog
+                  :listing_product_catalog, :listing_school
 
       end
     end
