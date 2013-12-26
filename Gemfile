@@ -5,6 +5,7 @@ group :development do
   gem "rake"
   gem "yard"
   gem "redcarpet"
+  gem 'spectator-validates_email', :require => 'validates_email'
 end
 
 group :test do
