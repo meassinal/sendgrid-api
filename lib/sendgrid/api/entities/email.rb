@@ -4,7 +4,8 @@ module Sendgrid
   module API
     module Entities
       class Email < Entity
-
+        include ActiveModel::Validations
+        
         attribute :email, :name, :full_name, :listing_name, :listing_logo_url, 
                   :listing_communications, :listing_extra_lines, :listing_stats,
                   :listing_info, :listing_categories, :listing_descriptions,
