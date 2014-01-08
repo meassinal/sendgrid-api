@@ -12,7 +12,10 @@ module Sendgrid
                   :listing_brochure, :listing_photo_gallery, :listing_people,
                   :listing_service_catalog, :listing_product_catalog, :listing_school, 
                   :listing_menu, :listing_mobile, :listing_instant_website, :listing_facebook,
-                  :listing_print_directory
+                  :listing_print_directory,
+
+                  # Improvement
+                  :listing_log_content, :listing_logo_tips
       end
     end
   end
